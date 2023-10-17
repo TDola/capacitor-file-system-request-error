@@ -5,6 +5,12 @@ and comes with a very minimal shell for building an app.
 
 ### Running this example
 
+```
+npm install
+npm run build
+npx cap open android
+```
+
 This is an example of the file system request error.
 
 This requires an android with API 29 or older.  If you use an older version, be sure to update the webview.
