@@ -5,8 +5,10 @@ and comes with a very minimal shell for building an app.
 
 ### Running this example
 
-To run the provided example, you can use `npm start` command.
+This is an example of the file system request error.
 
-```bash
-npm start
-```
+This requires an android with API 29 or older.  If you use an older version, be sure to update the webview.
+
+Newer API versions automatically grant file access, so you don't get the file access popup and thus when checked if you have permission, the promise is resolved.
+
+Issue and solution noted in this git issue https://github.com/ionic-team/capacitor-plugins/issues/1839
